@@ -1,4 +1,4 @@
 https://pogorelovalex.github.io/movee/
-![alt text](example.com/logo.png)
+![Иллюстрация к проекту](https://github.com/PogorelovAlex/movee/main/movee.png)
 
-![alt text](figures/img.png)
+
