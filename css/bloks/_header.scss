@@ -1,0 +1,227 @@
+.header {
+  width: 100vw;
+  max-width: 100%;
+  height: 65rem;
+  background: #fed100;
+  color: #333333;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    width: 130.5rem;
+    height: 3.7rem;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-logo {
+      font-family: "Montserrat";
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.7rem;
+    }
+    &-navbar {
+      display: flex;
+      flex-direction: row;
+      margin-left: 8.7rem;
+
+      .nav {
+        width: 45.2rem;
+        height: 2.2rem;
+        display: flex;
+
+        .nav-list {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          align-items: center;
+
+          &__item {
+            display: flex;
+          }
+
+          &__link {
+            font-family: "Montserrat";
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 2.2rem;
+          }
+        }
+      }
+    }
+
+    &-phone {
+      font-family: "Montserrat";
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.9rem;
+      text-decoration: underline;
+    }
+  }
+  &__content {
+    display: flex;
+
+    flex-direction: row;
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    margin-top: 7rem;
+    margin-left: 30.3rem;
+    max-width: 54.6rem;
+
+    &-title {
+      font-family: "Montserrat";
+      font-size: 7rem;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 7.4rem;
+      letter-spacing: 0.18rem;
+      span {
+        display: block;
+      }
+    }
+
+    &-subtitle {
+      margin-top: 1rem;
+      font-family: "Montserrat";
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.7rem;
+      letter-spacing: 0.1rem;
+    }
+
+    &-button {
+      background: #ff352b;
+      width: 30.4rem;
+      height: 6rem;
+      border: none;
+      z-index: 2;
+
+      font-family: "Montserrat";
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.9rem;
+      margin-top: 4.8rem;
+      margin-left: 0.5rem;
+
+      &-border {
+        border: 0.2rem solid #f2f2f2;
+        width: 30.4rem;
+        height: 6rem;
+        position: relative;
+        z-index: 1;
+        left: 1.5rem;
+        top: -5rem;
+      }
+    }
+  }
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #333333;
+    margin-top: 1.7rem;
+
+    //style: text;
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.1rem;
+    span {
+      display: block;
+    }
+
+    &-truck,
+    &-box,
+    &-money {
+      display: flex;
+      flex-direction: row;
+      margin-right: 3.5rem;
+      margin-left: 0.35rem;
+    }
+    &-box {
+      display: flex;
+      flex-direction: row;
+      margin-right: 2.5rem;
+    }
+    &-money {
+      display: flex;
+      flex-direction: row;
+      margin-right: 1.5rem;
+    }
+    &-truck-text,
+    &-box-text,
+    &-money-text {
+      margin-left: 1.2rem;
+    }
+  }
+
+  &__man-foto {
+    height: 60.8rem;
+    width: 38.1rem;
+    background-image: url('/movee/assets/img/manFoto.png');
+    margin-top: -3.6rem;
+    margin-left: 7.1rem;
+    z-index: 2;
+  }
+
+  &__microbus {
+    &-foto {
+      background-image: url('../assets/img/microbus.png');
+      height: 30rem;
+      width: 49.9rem;
+      position: relative;
+      z-index: 1;
+      left: -9rem;
+      top: 10rem;
+    }
+    &-phone {
+      .border__light-blue {
+        height: 13.6rem;
+        width: 13.6rem;
+        border-radius: 100%;
+        background-color: #3d9be9;
+        opacity: 30%;
+        position: relative;
+        top: 9.75rem;
+        left: 16rem;
+        z-index: 1;
+      }
+
+      .border__dark-blue {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 100%;
+        background-color: #3d9be9;
+        opacity: 80%;
+        position: relative;
+        top: -2.1rem;
+        left: 17.8rem;
+        z-index: 2;
+      }
+
+      &-icon {
+        background-image: url('/movee/assets/img/phone.png');
+        width: 5.29rem;
+        height: 5.29rem;
+        position: relative;
+        top: -9.6rem;
+        left: 20.2rem;
+        z-index: 3;
+      }
+    }
+  }
+}

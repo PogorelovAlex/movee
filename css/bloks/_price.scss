@@ -1,0 +1,92 @@
+@import "../_mixins.scss";
+@import "../_fonts.scss";
+
+.price {
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-main {
+      font-family: "Montserrat";
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.7rem;
+      margin-top: 6.8rem;
+      margin-right: -1rem;
+    }
+    &-secondary {
+      font-family: "Montserrat";
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.9rem;
+      letter-spacing: 0.045rem;
+      margin-top: 1.2rem;
+      margin-left: 1rem;
+    }
+  }
+  &__content {
+    &__wrapper {
+      margin-top: 6rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+    }
+    &-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 57.9rem;
+      width: 42.1rem;
+      border: 1px solid #ebebeb;
+
+      .card-title {
+        font-family: "Montserrat";
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.9rem;
+        margin-top: 8.4rem;
+      }
+
+      .card-subtitle {
+        font-family: "Montserrat";
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.1rem;
+        text-align: center;
+        margin-top: 5rem;
+        line-height: 5rem;
+      }
+      .card-price {
+        font-family: "Montserrat";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 3.7rem;
+        margin-top: 5rem;
+       
+      }
+      .card-button {
+        height: 5.1rem;
+        width: 25rem;
+        background-color: #fed100;
+        color: #333333;
+
+        font-family: "Montserrat";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.4rem;
+        border: none;
+        margin-top: 5.2rem;
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

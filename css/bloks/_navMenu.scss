@@ -1,0 +1,81 @@
+
+  
+  @import "../_mixins.scss";
+  @import "../_fonts.scss";
+
+  
+
+  .header__nav-menu {
+  
+    .wrapper {
+      display: flex;
+      height: 6.5rem;
+      max-width: 144rem;
+      border: 1px solid #e6e6e6;
+      justify-content: center;
+      
+      .wrapper__logo{
+      display: flex;  
+      height: 100%;
+      width: 94rem;
+      // flex-direction: row;
+      // align-items: center;
+      justify-content: space-between;
+      }
+    }
+    &-logo {
+      @include construct-logo();
+      display: flex;
+      color: #171819;
+      font-size: 2.3rem;
+      // margin-left: 25rem;
+      align-items: center;
+      justify-content: center;
+      .fa-caret-left {
+        color: #00a4e5;
+        justify-content: flex-start;
+      }
+  
+      &__title {
+        // color: $color-primary;
+        // @include logo_title();
+      }
+    }
+  
+    .nav {
+      width: 41.05rem;
+  
+      // margin-right: 25rem;
+      display: flex;
+  
+      .nav-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+       
+  
+        &__item {
+          display: flex;
+          align-items: center;
+        }
+  
+        &__link {
+          // color: $color-light-s;
+          font-family: "Open Sans";
+          font-size: 1.2rem;
+          font-weight: 600;
+          line-height: 160%;
+          letter-spacing: 0.1rem;
+          text-align: center;
+          &_active {
+            color: #00a4e5;
+          }
+          &_disabled {
+            color: #48555b;
+          }
+        }
+      }
+    }
+  }

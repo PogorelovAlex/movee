@@ -1,0 +1,31 @@
+
+@import "_fonts.scss";
+@import "_mixins.scss";
+
+:root {
+    font-size: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 192rem;
+    flex: 1;
+
+  }

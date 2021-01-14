@@ -1,0 +1,13 @@
+/* Это точка входа для всех стилей. Подключите сюда все файлы стилей, которые должны быть на странице.*/
+
+@import "./bloks/_header.scss";
+@import "./bloks/_navMenu.scss";
+@import "./bloks/_about.scss";
+@import "./bloks/_price.scss";
+@import "./bloks/_autopark.scss";
+@import "./bloks/_footer.scss";
+@import "./bloks/_feedback.scss";
+@import "./bloks/_order.scss";
+@import "./bloks/_location.scss";
+
+@import "_global.scss";

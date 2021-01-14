@@ -1,0 +1,123 @@
+@import "../_mixins.scss";
+@import "../_fonts.scss";
+
+.autopark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.7rem;
+    margin-top: 10.5rem;
+    letter-spacing: 0.04rem;
+  }
+  &__subtitle {
+    font-family: "Montserrat";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.9rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    letter-spacing: 0.04rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .fa-chevron-left {
+      margin-top: 18.3rem;
+      font-size: 2rem;
+    }
+    .fa-chevron-right{
+      margin-top: 18.3rem;
+      font-size: 2rem;
+    }
+
+    &-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 64rem;
+      margin-top: 6rem;
+
+      &-gazeli,
+      &-kabluk,
+      &-gruzoviki {
+        height: 5rem;
+        width: 20.1rem;
+        border: 0.1rem solid #ebebeb;
+        background: #ffffff;
+        font-family: "Montserrat";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.4rem;
+      }
+
+      .active {
+        border: 0.1rem solid #fed100;
+      }
+    }
+
+    &_img-block {
+      width: 122rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 5rem;
+      margin-bottom: 4.5rem;
+    }
+  }
+
+  .img-block-text {
+    margin-top: 5rem;
+    margin-right: 1.8rem;
+    .title {
+      font-family: "Montserrat";
+      font-size: 2.4rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.9rem;
+    }
+
+    .auto-params {
+      margin-top: 3.5rem;
+      font-family: "Montserrat";
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.1rem;
+      li {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin-top: 3rem;
+      }
+      .fa-check {
+        margin-right: 1rem;
+      }
+    }
+
+    .img-block-button {
+      margin-top: 2.9rem;
+      font-family: "Montserrat";
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2.4rem;
+
+      background: #fed100;
+      height: 5rem;
+      width: 25rem;
+      border: none;
+    }
+  }
+}
