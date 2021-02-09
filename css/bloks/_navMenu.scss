@@ -59,6 +59,7 @@
         &__item {
           display: flex;
           align-items: center;
+          text-decoration: none;
         }
   
         &__link {
@@ -69,6 +70,7 @@
           line-height: 160%;
           letter-spacing: 0.1rem;
           text-align: center;
+          color: orange;
           &_active {
             color: #00a4e5;
           }
