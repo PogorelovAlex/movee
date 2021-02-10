@@ -843,6 +843,11 @@
   line-height: 3.7rem;
 }
 
+.footer__logo-title:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .footer__logo-subtitle {
   font-family: "Montserrat";
   font-size: 1.6rem;
@@ -884,6 +889,11 @@
   list-style: none;
 }
 
+.footer__nav li:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .footer .second {
   margin-top: 1.5rem;
 }
@@ -907,6 +917,11 @@
   margin-left: 2rem;
 }
 
+.footer__icons .fa:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .footer__icons-email {
   font-family: "Montserrat";
   font-size: 2rem;
@@ -916,6 +931,11 @@
   text-decoration: underline;
   margin-left: 3rem;
   margin-top: 1rem;
+}
+
+.footer__icons-email:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .footer__contact {
@@ -937,11 +957,17 @@
   width: 25rem;
   background: #fed100;
   border: 1px solid #333333;
+  outline: none;
   font-family: "Montserrat";
   font-size: 2rem;
   font-style: normal;
   font-weight: 500;
   line-height: 2.4rem;
+}
+
+.footer__contact-button:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .footer__contact-phone {
@@ -952,6 +978,11 @@
   line-height: 2.4rem;
   text-decoration: underline;
   margin-top: 1rem;
+}
+
+.footer__contact-phone:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 @font-face {

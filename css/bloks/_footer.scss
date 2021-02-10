@@ -26,6 +26,11 @@
       font-weight: 600;
       line-height: 3.7rem;
     }
+
+    &-title:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
     &-subtitle {
       font-family: "Montserrat";
       font-size: 1.6rem;
@@ -59,6 +64,10 @@
     li {
       list-style: none;
     }
+    li:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
   }
   .second {
     margin-top: 1.5rem;
@@ -74,6 +83,10 @@
     .fa {
       margin-left: 2rem;
     }
+    .fa:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
     &-email {
       font-family: "Montserrat";
       font-size: 2rem;
@@ -84,6 +97,11 @@
       margin-left: 3rem;
       margin-top: 1rem;
     }
+    &-email:hover {
+      cursor: pointer;
+      opacity: 0.7;
+     }
+
   }
   &__contact {
     display: flex;
@@ -97,6 +115,7 @@
 
       background: #fed100;
       border: 1px solid #333333;
+      outline: none;
 
       font-family: "Montserrat";
       font-size: 2rem;
@@ -104,6 +123,12 @@
       font-weight: 500;
       line-height: 2.4rem;
     }
+
+    &-button:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+
     &-phone {
       font-family: "Montserrat";
       font-size: 2rem;
@@ -112,6 +137,10 @@
       line-height: 2.4rem;
       text-decoration: underline;
       margin-top: 1rem;
+    }
+    &-phone:hover {
+      cursor: pointer;
+      opacity: 0.7;
     }
   }
 }
